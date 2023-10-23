@@ -38,10 +38,10 @@ export default function Home() {
             </p>
             <div className='sd:flex xz:flex-row mb-8 text-[#c9a035] font-semibold text-2xl'>
               <p className="mx-2 my-2">
-                Живой голос.
+                Живой голос
               </p>
               <p className="mx-2 my-2">
-                Профессиональные артисты.
+                Профессиональные артисты
               </p>
               <p className="mx-2 my-2">
                 Большой сценический опыт

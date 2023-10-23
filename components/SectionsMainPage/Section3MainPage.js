@@ -15,9 +15,9 @@ const Section3MainPage = () => {
 					<div className="sd:w-1/2 xz:w-full mx-auto mb-20 relative">
 						<div className="relative overflow-hidden">
 							<Image src='/main/foto-main.webp' alt='Цыганский ансамбль' className="mx-auto" width={645} height={608} />
-							<div className="absolute bottom-0 left-0 right-0 bg-gradient-to-b from-red-600/0 to-red-600/90 py-7" style={{ width: '645px', margin: '0 auto' }}>
-								<p className="text-white uppercase text-xl text-center">
-									Развлекательные Шоу программы с участием <span className="block font-semibold text-3xl">Цыганского ансамбля</span>
+							<div className="absolute bottom-0 left-1/2 right-0 transform -translate-x-1/2 text-center bg-gradient-to-b from-red-600/0 to-red-600/90 py-6" style={{ width: '645px', margin: '0 auto' }}>
+								<p className="text-white uppercase sd:text-xl xz:text-sm xy:text-lg text-center">
+									Развлекательные Шоу программы <br className="xz:block sd:hidden" /> с участием <span className="block font-semibold sd:text-4xl xz:text-xl xy:text-2xl mt-2">Цыганского ансамбля</span>
 								</p>
 							</div>
 						</div>
@@ -26,9 +26,9 @@ const Section3MainPage = () => {
 					<div className="sd:w-1/2 xz:w-full mx-auto relative">
 						<div className="relative overflow-hidden">
 							<Image src='/main/foto-main2.webp' alt='Цыганский ансамбль' className="mx-auto" width={645} height={608} />
-							<div className="absolute bottom-0 left-0 right-0 bg-gradient-to-b from-red-600/0 to-red-600/90 py-7" style={{ width: '645px', margin: '0 auto' }}>
-								<p className="text-white uppercase text-xl text-center">
-									Развлекательные Шоу программы с участием <span className="block font-semibold text-3xl">Испанского ансамбля</span>
+							<div className="absolute bottom-0 left-1/2 right-0 transform -translate-x-1/2 text-center bg-gradient-to-b from-red-600/0 to-red-600/90 py-6" style={{ width: '645px', margin: '0 auto' }}>
+								<p className="text-white uppercase sd:text-xl xz:text-sm xy:text-lg text-center">
+									Развлекательные Шоу программы <br className="xz:block sd:hidden" /> с участием <span className="block font-semibold sd:text-4xl xz:text-xl xy:text-2xl mt-2">Испанского ансамбля</span>
 								</p>
 							</div>
 						</div>
