@@ -11,7 +11,7 @@ const dataUslugi = [
 		title: 'Цыганский ансамбль',
 		key: 'cigan',
 		content: '',
-		link: '/uslugi/cyganskij-ansambl'
+		link: 'uslugi/cyganskij-ansambl'
 	},
 	{
 		id: 2,
@@ -19,7 +19,7 @@ const dataUslugi = [
 		title: 'Цыганский ансамбль на свадьбу',
 		key: 'cigan-wedding',
 		content: '',
-		link: '/uslugi/cyganskij-ansambl-na-svadbu'
+		link: 'uslugi/cyganskij-ansambl-na-svadbu'
 	},
 	{
 		id: 3,
@@ -27,7 +27,7 @@ const dataUslugi = [
 		title: 'Цыганский ансамбль на корпоратив',
 		key: 'cigan-corporate',
 		content: '',
-		link: '/uslugi/cyganskij-ansambl-na-korporativ'
+		link: 'uslugi/cyganskij-ansambl-na-korporativ'
 	},
 	{
 		id: 4,
@@ -35,7 +35,7 @@ const dataUslugi = [
 		title: 'Цыганский ансамбль на юбилей',
 		key: 'cigan-anniversary',
 		content: '',
-		link: '/uslugi/cyganskij-ansambl-na-yubilej'
+		link: 'uslugi/cyganskij-ansambl-na-yubilej'
 	},
 	{
 		id: 5,
@@ -43,7 +43,7 @@ const dataUslugi = [
 		title: 'Шоу программа на корпоратив',
 		key: 'shou-na-korporativ',
 		content: '',
-		link: '/uslugi/shou-na-korporativ'
+		link: 'uslugi/shou-na-korporativ'
 	},
 	{
 		id: 6,
@@ -51,7 +51,7 @@ const dataUslugi = [
 		title: 'Шоу программа на юбилей',
 		key: 'shou-programma-na-yubilej',
 		content: '',
-		link: '/uslugi/shou-programma-na-yubilej'
+		link: 'uslugi/shou-programma-na-yubilej'
 	},
 	{
 		id: 7,
@@ -59,7 +59,7 @@ const dataUslugi = [
 		title: 'Шоу программа на свадьбу',
 		key: 'shou-programma-na-svadbu',
 		content: '',
-		link: '/uslugi/shou-programma-na-svadbu'
+		link: 'uslugi/shou-programma-na-svadbu'
 	},
 	{
 		id: 8,
@@ -67,12 +67,13 @@ const dataUslugi = [
 		title: 'Новогодняя шоу программа',
 		key: 'novogodnyaya-shou-programma',
 		content: '',
-		link: '/uslugi/novogodnyaya-shou-programma'
+		link: 'uslugi/novogodnyaya-shou-programma'
 	},
 ];
 
 const SectionUslugiCard = () => {
 	const [selectedFilter, setSelectedFilter] = useState('all');
+	console.log('process.env.NEXT_PUBLIC_BASE_URL', process.env.NEXT_PUBLIC_BASE_URL)
 	return (
 		<div className='mt-10'>
 			<div className="flex">

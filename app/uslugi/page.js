@@ -27,7 +27,7 @@ const UslugiPage = () => {
 					</h1>
 				</div>
 				<div className="w-full mt-10 mx-auto">
-					<Image src='/main/main2.webp' className="mx-auto" alt="искусство шоу Бетельгейз" width={645} height={608} />
+					<Image src='/main/main3.webp' className="mx-auto" alt="искусство шоу Бетельгейз" width={645} height={608} />
 				</div>
 				<div className="sd:mt-16 xz:mt-8 py-6">
 					<h2 className="uppercase text-center sd:text-4xl xz:text-xl">

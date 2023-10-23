@@ -12,22 +12,22 @@ const Section3MainPage = () => {
 				</div>
 
 				<div className="sd:mt-20 xz:mt-8">
-					<div className="sd:w-1/2 xz:w-full mx-auto mb-20 relative">
-						<Image src='/main/foto-main-block.webp' alt='Цыганский ансамбль' width={645} height={608} />
+					<div className="sd:w-1/2 xz:w-full mx-auto mb-20 relative overflow-hidden">
+						<Image src='/main/foto-main.webp' alt='Цыганский ансамбль' width={645} height={608} />
 						<div className="absolute bottom-0 left-0 right-0 bg-gradient-to-b from-red-600/0 to-red-600/90
-			 	h-56 px-7">
-							<p className="text-white uppercase text-xl text-center absolute bottom-6 left-0 right-0">
+			 	 py-7">
+							<p className="text-white uppercase text-xl text-center">
 								Развлекательные Шоу программы с участием <span className="block font-semibold text-3xl">Цыганского ансамбля</span>
 							</p>
 						</div>
 					</div>
 
 
-					<div className="sd:w-1/2 xz:w-full mx-auto relative">
-						<Image src='/main/foto-main-block2.webp' alt='Цыганский ансамбль' width={645} height={608} />
+					<div className="sd:w-1/2 xz:w-full mx-auto relative overflow-hidden">
+						<Image src='/main/foto-main2.webp' alt='Цыганский ансамбль' width={645} height={608} />
 						<div className="absolute bottom-0 left-0 right-0 bg-gradient-to-b from-red-600/0 to-red-600/90
-			 	h-56 px-7">
-							<p className="text-white uppercase text-xl text-center absolute bottom-6 left-0 right-0">
+			 	 py-7">
+							<p className="text-white uppercase text-xl text-center">
 								Развлекательные Шоу программы с участием <span className="block font-semibold text-3xl">Испанского ансамбля</span>
 							</p>
 						</div>

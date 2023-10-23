@@ -8,7 +8,7 @@ import BtnScroll from "@/components/btnScroll/BtnScroll";
 
 export default function Home() {
   return (
-    <main className='sd:py-24 xz:pt-12 container mx-auto bg-white mt-16 rounded-sm'>
+    <main className='sd:py-12 xz:pt-12 container mx-auto bg-white mt-16 rounded-sm'>
 
       <section className="relative w-full">
 
@@ -23,19 +23,31 @@ export default function Home() {
         </div>
 
         <div className="flex flex-col items-center">
-          <p className="text-gray-500 uppercase text-2xl font-light">
+          <p className="text-gray-600 uppercase text-5xl font-light">
             шоу
           </p>
           <Image src='/logo/logo-word2.webp' alt="логотип Бетельгейз" width={500} height={143} />
 
           <div className="sd:w-1/2 xz:w-full mt-10">
-            <Image src='/main/main2.webp' className="" alt="искусство шоу Бетельгейз" width={645} height={608} />
+            <Image src='/main/main3.webp' className="" alt="искусство шоу Бетельгейз" width={645} height={608} />
           </div>
 
           <div className="text-center mt-8">
-            <p className="uppercase mb-8 font-light sd:text-2xl xz:text-lg">
+            <p className="uppercase mb-6 font-light sd:text-2xl xz:text-lg">
               Незабываемое шоу для вашего мероприятия
             </p>
+            <div className='sd:flex xz:flex-row mb-8 text-[#c9a035] font-semibold text-2xl'>
+              <p className="mx-2 my-2">
+                Живой голос.
+              </p>
+              <p className="mx-2 my-2">
+                Профессиональные артисты.
+              </p>
+              <p className="mx-2 my-2">
+                Большой сценический опыт
+              </p>
+            </div>
+
             <BtnComp />
           </div>
         </div>

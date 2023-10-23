@@ -4,7 +4,7 @@ import SliderComp from "../sliderComp/SliderComp"
 
 const Section1MainPage = () => {
 	return (
-		<section className="pt-24 sd:pb-16 xz:pb-6" id="main">
+		<section className="pt-16 sd:pb-16 xz:pb-6" id="main">
 			<div className="container mx-auto sd:px-24 xz:px-0">
 				<div className="text-center mb-4">
 					<Image src='/main/white-lines.svg' className="mx-auto" alt="Шоу программа Бетельгейз" width={200} height={200} />
@@ -22,7 +22,7 @@ const Section1MainPage = () => {
 
 				<div className="mt-8">
 					<h2 className="sd:text-4xl xz:text-2xl text-center font-light ">
-						Шоу программа «Бетельгейз»<br /> Уникальное Развлекательное Мероприятие для Взрослых
+						Шоу программа «Бетельгейз»<br /> Уникальное Развлекательное Мероприятие
 					</h2>
 
 					<article className="mt-6 text-center">
