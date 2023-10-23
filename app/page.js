@@ -26,7 +26,7 @@ export default function Home() {
           <p className="text-gray-600 uppercase text-5xl font-light">
             шоу
           </p>
-          <Image src='/logo/logo-word2.webp' alt="логотип Бетельгейз" width={500} height={143} />
+          <Image src='/logo/logo-word2.webp' alt="логотип Бетельгейз" className="mx-auto" width={500} height={143} />
 
           <div className="sd:w-1/2 xz:w-full mt-10 mx-auto text-center">
             <Image src='/main/main3.webp' className="mx-auto" alt="искусство шоу Бетельгейз" width={645} height={608} />

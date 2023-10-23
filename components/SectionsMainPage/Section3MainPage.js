@@ -12,27 +12,29 @@ const Section3MainPage = () => {
 				</div>
 
 				<div className="sd:mt-20 xz:mt-8">
-					<div className="sd:w-1/2 xz:w-full mx-auto mb-20 relative overflow-hidden">
-						<Image src='/main/foto-main.webp' alt='Цыганский ансамбль' width={645} height={608} />
-						<div className="absolute bottom-0 left-0 right-0 bg-gradient-to-b from-red-600/0 to-red-600/90
-			 	 py-7">
-							<p className="text-white uppercase text-xl text-center">
-								Развлекательные Шоу программы с участием <span className="block font-semibold text-3xl">Цыганского ансамбля</span>
-							</p>
+					<div className="sd:w-1/2 xz:w-full mx-auto mb-20 relative">
+						<div className="relative overflow-hidden">
+							<Image src='/main/foto-main.webp' alt='Цыганский ансамбль' className="mx-auto" width={645} height={608} />
+							<div className="absolute bottom-0 left-0 right-0 bg-gradient-to-b from-red-600/0 to-red-600/90 py-7" style={{ width: '645px', margin: '0 auto' }}>
+								<p className="text-white uppercase text-xl text-center">
+									Развлекательные Шоу программы с участием <span className="block font-semibold text-3xl">Цыганского ансамбля</span>
+								</p>
+							</div>
 						</div>
 					</div>
 
-
-					<div className="sd:w-1/2 xz:w-full mx-auto relative overflow-hidden">
-						<Image src='/main/foto-main2.webp' alt='Цыганский ансамбль' width={645} height={608} />
-						<div className="absolute bottom-0 left-0 right-0 bg-gradient-to-b from-red-600/0 to-red-600/90
-			 	 py-7">
-							<p className="text-white uppercase text-xl text-center">
-								Развлекательные Шоу программы с участием <span className="block font-semibold text-3xl">Испанского ансамбля</span>
-							</p>
+					<div className="sd:w-1/2 xz:w-full mx-auto relative">
+						<div className="relative overflow-hidden">
+							<Image src='/main/foto-main2.webp' alt='Цыганский ансамбль' className="mx-auto" width={645} height={608} />
+							<div className="absolute bottom-0 left-0 right-0 bg-gradient-to-b from-red-600/0 to-red-600/90 py-7" style={{ width: '645px', margin: '0 auto' }}>
+								<p className="text-white uppercase text-xl text-center">
+									Развлекательные Шоу программы с участием <span className="block font-semibold text-3xl">Испанского ансамбля</span>
+								</p>
+							</div>
 						</div>
 					</div>
 				</div>
+
 
 				<div className="sd:mt-20 xz:mt-14 text-center sd:px-24 xz:px-0">
 
@@ -47,7 +49,7 @@ const Section3MainPage = () => {
 					</p>
 					<p className="sd:mb-4 xz:mb-3">
 						Для подробной информации о наших услугах, пожалуйста, посетите страницу<Link href={`${process.env.NEXT_PUBLIC_BASE_URL}/uslugi`} as='/uslugi' className="text-blue-800 mx-2">
-						услуги
+							услуги
 						</Link> на нашем сайте. Мы всегда готовы обсудить ваши потребности и пожелания, чтобы создать именно тот формат шоу программы, который будет соответствовать вашему мероприятию.
 					</p>
 					<p className="mt-8 text-center font-bold sd:text-lg xz:text-base">
