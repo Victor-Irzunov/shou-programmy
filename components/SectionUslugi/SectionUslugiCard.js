@@ -15,7 +15,7 @@ const dataUslugi = [
 	},
 	{
 		id: 2,
-		img: '/uslugi/2.webp',
+		img: '/uslugi/cyganskij-ansambl/main2.webp',
 		title: 'Цыганский ансамбль на свадьбу',
 		key: 'cigan-wedding',
 		content: '',
@@ -23,7 +23,7 @@ const dataUslugi = [
 	},
 	{
 		id: 3,
-		img: '/uslugi/1.webp',
+		img: '/uslugi/cyganskij-ansambl/main3.webp',
 		title: 'Цыганский ансамбль на корпоратив',
 		key: 'cigan-corporate',
 		content: '',
@@ -31,7 +31,7 @@ const dataUslugi = [
 	},
 	{
 		id: 4,
-		img: '/uslugi/2.webp',
+		img: '/uslugi/cyganskij-ansambl/main4.webp',
 		title: 'Цыганский ансамбль на юбилей',
 		key: 'cigan-anniversary',
 		content: '',
@@ -39,7 +39,7 @@ const dataUslugi = [
 	},
 	{
 		id: 5,
-		img: '/uslugi/3.webp',
+		img: '/uslugi/shou-na-korporativ/main1.webp',
 		title: 'Шоу программа на корпоратив',
 		key: 'shou-na-korporativ',
 		content: '',
@@ -47,7 +47,7 @@ const dataUslugi = [
 	},
 	{
 		id: 6,
-		img: '/uslugi/3.webp',
+		img: '/uslugi/shou-programma-na-yubilej/main1.webp',
 		title: 'Шоу программа на юбилей',
 		key: 'shou-programma-na-yubilej',
 		content: '',
@@ -55,7 +55,7 @@ const dataUslugi = [
 	},
 	{
 		id: 7,
-		img: '/uslugi/3.webp',
+		img: '/uslugi/shou-programma-na-svadbu/main1.webp',
 		title: 'Шоу программа на свадьбу',
 		key: 'shou-programma-na-svadbu',
 		content: '',
@@ -63,7 +63,7 @@ const dataUslugi = [
 	},
 	{
 		id: 8,
-		img: '/uslugi/3.webp',
+		img: '/uslugi/2.webp',
 		title: 'Новогодняя шоу программа',
 		key: 'novogodnyaya-shou-programma',
 		content: '',

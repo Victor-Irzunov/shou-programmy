@@ -32,13 +32,11 @@ const Footer = () => {
 							Контакты
 						</p>
 						<p>
-							<PhoneOutlined className='mr-3 rotate-90' />
 							<a href='tel:8029' className='font-extralight'>
 								+375 29 000-00-00
 							</a>
 						</p>
 						<p className='font-extralight'>
-							<MailOutlined className='mr-3' />
 							....@yandex.by
 						</p>
 					</div>

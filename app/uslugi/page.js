@@ -14,12 +14,8 @@ export const metadata = {
 }
 const UslugiPage = () => {
 
-
-
-
-
 	return (
-		<main className='sd:pt-36 xz:pt-24 pb-10'>
+		<main className='sd:pt-36 xz:pt-24 pb-10 overflow-x-hidden'>
 			<div className="container mx-auto sd:px-24 xz:px-0">
 				<div className="text-center mb-4">
 					<Image src='/logo/logo-word2.webp' alt="логотип Бетельгейз" width={150} height={143} className="mx-auto" />

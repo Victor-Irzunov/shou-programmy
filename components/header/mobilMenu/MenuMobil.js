@@ -3,7 +3,6 @@
 import { Divider } from 'antd'
 // import { ToolOutlined } from '@ant-design/icons'
 import Link from 'next/link'
-import { Link as LinkScroll } from 'react-scroll'
 
 export const MenuMobil = ({ onClose }) => {
 	// const [isOpen, setIsOpen] = useState(false)
@@ -12,55 +11,42 @@ export const MenuMobil = ({ onClose }) => {
 	// 	setIsOpen(true)
 	// }
 
-
 	return (
 		<div className='h-full'>
 			<nav className='h-full pt-10'>
 				<ul className='h-full uppercase text-lg cursor-pointer'>
 					<li className='mb-5'>
-						<LinkScroll to='main'
-							className="cursor-pointer"
+						<Link
+							href={`${process.env.NEXT_PUBLIC_BASE_URL}/`}
+							as='/' className=""
 							onClick={onClose}
-							style={{ color: '#000' }}
-							smooth={true}
-							offset={-100}
-							duration={800}
 						>
 							Главная
-						</LinkScroll>
+						</Link>
 					</li>
 					{/* <Divider style={{ marginTop: '8px', marginBottom: '8px' }} /> */}
 
 					<li className='mb-5'>
-						<LinkScroll to='about'
-							className="cursor-pointer"
+						<Link
+							href={`${process.env.NEXT_PUBLIC_BASE_URL}/uslugi`}
+							as='/uslugi' className=""
 							onClick={onClose}
-							style={{ color: '#000' }}
-							smooth={true}
-							offset={-100}
-							duration={800}
 						>
-							О компании
-						</LinkScroll>
+							Услуги
+						</Link>
 					</li>
 					{/* <Divider style={{ marginTop: '8px', marginBottom: '8px' }} /> */}
 
 					<li className='mb-5'>
-						<LinkScroll to='contact'
-							className="cursor-pointer"
+						<Link
+							href={`${process.env.NEXT_PUBLIC_BASE_URL}/kontakty`}
+							as='/kontakty' className=""
 							onClick={onClose}
-							style={{ color: '#000' }}
-							smooth={true}
-							offset={-100}
-							duration={800}
 						>
 							Контакты
-						</LinkScroll>
+						</Link>
 					</li>
 					{/* <Divider style={{ marginTop: '8px', marginBottom: '8px' }} /> */}
-
-
-
 				</ul>
 			</nav>
 		</div>
