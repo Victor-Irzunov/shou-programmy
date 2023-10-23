@@ -108,11 +108,12 @@ const SectionUslugiCard = () => {
 							}}
 							exit={{ opacity: 0 }}
 							transition={{ duration: 1 }} // Измените продолжительность по желанию
-							className={`sd:w-1/2 xz:w-full px-2 my-3 relative overflow-hidden`}
+							className={`sd:w-2/5 xz:w-full my-4 sd:mx-4 xz:mx-0 relative overflow-hidden`}
 						>
+							<div className="relative overflow-hidden px-2">
 								<Image src={item.img} alt={item.title} width={636} height={636} className="mx-auto" />
 								<div className='absolute top-0 xz:px-2 sd:px-2 w-full left-1/2 right-0 transform -translate-x-1/2 text-center'>
-									<h3 className='text-white uppercase bg-gradient-to-t from-black/0 to-black/70 text-2xl pt-4 pb-5'>{item.title}</h3>
+									<h3 className='text-white uppercase px-2 bg-gradient-to-t from-black/0 to-black/70 text-2xl pt-4 pb-5'>{item.title}</h3>
 								</div>
 								<div className='absolute w-full bottom-6 left-1/2 right-0 transform -translate-x-1/2 text-center'>
 
@@ -124,6 +125,7 @@ const SectionUslugiCard = () => {
 										Перейти к просмотру
 									</Link>
 								</div>
+							</div>
 						</motion.div>
 					))}
 			</div>

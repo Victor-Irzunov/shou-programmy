@@ -1,7 +1,7 @@
 
 const SectionUslugiContent = () => {
 	return (
-		<div className='mt-10'>
+		<div className='mt-10 text-justify'>
 			<div className="bg-white sd:p-8 xz:p-0 rounded-lg sd:shadow-md xz:shadow-none">
 				<p className="text-2xl font-bold text-gray-800 sd:mb-4 xz:mb-2">
 					Наши шоу-программы - воплощение веселья и креативности
