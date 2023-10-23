@@ -7,7 +7,7 @@ import Image from "next/image";
 const dataUslugi = [
 	{
 		id: 1,
-		img: '/uslugi/cyganskoe-shou/1.webp',
+		img: '/uslugi/cyganskij-ansambl/main.webp',
 		title: 'Цыганский ансамбль',
 		key: 'cigan',
 		content: '',
