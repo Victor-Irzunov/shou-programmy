@@ -73,7 +73,6 @@ const dataUslugi = [
 
 const SectionUslugiCard = () => {
 	const [selectedFilter, setSelectedFilter] = useState('all');
-	console.log('process.env.NEXT_PUBLIC_BASE_URL', process.env.NEXT_PUBLIC_BASE_URL)
 	return (
 		<div className='mt-10'>
 			<div className="flex">
@@ -96,7 +95,7 @@ const SectionUslugiCard = () => {
 				</ul>
 			</div>
 
-			<div className="flex flex-wrap justify-center -mx-3 mt-10 px-10">
+			<div className="flex flex-wrap justify-center -mx-3 mt-10 sd:px-10 xz:px-0">
 				{dataUslugi
 					.filter((item) => selectedFilter === 'all' || selectedFilter === item.key)
 					.map((item) => (
@@ -111,7 +110,7 @@ const SectionUslugiCard = () => {
 							transition={{ duration: 1 }} // Измените продолжительность по желанию
 							className={`sd:w-1/2 xz:w-full px-2 my-3 relative overflow-hidden`}
 						>
-								<Image src={item.img} alt={item.title} width={636} height={636} className="object-cover" />
+								<Image src={item.img} alt={item.title} width={636} height={636} className="mx-auto" />
 								<div className='absolute top-0 xz:px-2 sd:px-2 w-full left-1/2 right-0 transform -translate-x-1/2 text-center'>
 									<h3 className='text-white uppercase bg-gradient-to-t from-black/0 to-black/70 text-2xl pt-4 pb-5'>{item.title}</h3>
 								</div>
