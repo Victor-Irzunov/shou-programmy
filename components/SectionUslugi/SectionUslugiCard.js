@@ -107,24 +107,25 @@ const SectionUslugiCard = () => {
 								opacity: selectedFilter === 'all' || selectedFilter === item.key ? 1 : 0,
 								// height: selectedFilter === 'all' || selectedFilter === item.key ? 'auto' : 0,
 							}}
-							exit={{ opacity: 0}}
+							exit={{ opacity: 0 }}
 							transition={{ duration: 1 }} // Измените продолжительность по желанию
 							className={`sd:w-1/2 xz:w-full px-2 my-2 relative`}
 						>
+							<div className="relative overflow-hidden">
+								<Image src={item.img} alt={item.title} width={636} height={636} className="" />
+								<div className='absolute top-0 xz:px-2 sd:px-2 w-full left-1/2 right-0 transform -translate-x-1/2 text-center'>
+									<h3 className='text-white uppercase bg-gradient-to-t from-black/0 to-black/70 text-2xl pt-4 pb-5'>{item.title}</h3>
+								</div>
+								<div className='absolute w-full bottom-6 left-1/2 right-0 transform -translate-x-1/2 text-center'>
 
-							<Image src={item.img} alt={item.title} width={636} height={636} className="" />
-							<div className='absolute top-0 xz:px-2 sd:px-2 w-full left-1/2 right-0 transform -translate-x-1/2 text-center'>
-								<h3 className='text-white uppercase bg-gradient-to-t from-black/0 to-black/70 text-2xl pt-4 pb-5'>{item.title}</h3>
-							</div>
-							<div className='absolute w-full bottom-6 left-1/2 right-0 transform -translate-x-1/2 text-center'>
-
-								<Link
-									href={`${process.env.NEXT_PUBLIC_BASE_URL}/${item.link}`}
-									as={`/${item.link}`}
-									className="sd:px-6 sd:py-4 xz:px-3 xz:py-2 bg-white text-black text-xs uppercase font-semibold"
-								>
-									Перейти к просмотру
-								</Link>
+									<Link
+										href={`${process.env.NEXT_PUBLIC_BASE_URL}/${item.link}`}
+										as={`/${item.link}`}
+										className="sd:px-6 sd:py-4 xz:px-3 xz:py-2 bg-white text-black text-xs uppercase font-semibold"
+									>
+										Перейти к просмотру
+									</Link>
+								</div>
 							</div>
 						</motion.div>
 					))}
