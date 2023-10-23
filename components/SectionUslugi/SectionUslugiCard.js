@@ -96,7 +96,7 @@ const SectionUslugiCard = () => {
 				</ul>
 			</div>
 
-			<div className="flex flex-wrap justify-center -mx-2 mt-10 min-h-[50vh]">
+			<div className="flex flex-wrap justify-center -mx-3 mt-10 px-10">
 				{dataUslugi
 					.filter((item) => selectedFilter === 'all' || selectedFilter === item.key)
 					.map((item) => (
@@ -109,10 +109,9 @@ const SectionUslugiCard = () => {
 							}}
 							exit={{ opacity: 0 }}
 							transition={{ duration: 1 }} // Измените продолжительность по желанию
-							className={`sd:w-1/2 xz:w-full px-2 my-2 relative`}
+							className={`sd:w-1/2 xz:w-full px-2 my-3 relative overflow-hidden`}
 						>
-							<div className="relative overflow-hidden">
-								<Image src={item.img} alt={item.title} width={636} height={636} className="" />
+								<Image src={item.img} alt={item.title} width={636} height={636} className="object-cover" />
 								<div className='absolute top-0 xz:px-2 sd:px-2 w-full left-1/2 right-0 transform -translate-x-1/2 text-center'>
 									<h3 className='text-white uppercase bg-gradient-to-t from-black/0 to-black/70 text-2xl pt-4 pb-5'>{item.title}</h3>
 								</div>
@@ -126,7 +125,6 @@ const SectionUslugiCard = () => {
 										Перейти к просмотру
 									</Link>
 								</div>
-							</div>
 						</motion.div>
 					))}
 			</div>
