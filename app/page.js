@@ -28,8 +28,8 @@ export default function Home() {
           </p>
           <Image src='/logo/logo-word2.webp' alt="логотип Бетельгейз" width={500} height={143} />
 
-          <div className="sd:w-1/2 xz:w-full mt-10">
-            <Image src='/main/main3.webp' className="" alt="искусство шоу Бетельгейз" width={645} height={608} />
+          <div className="sd:w-1/2 xz:w-full mt-10 mx-auto text-center">
+            <Image src='/main/main3.webp' className="mx-auto" alt="искусство шоу Бетельгейз" width={645} height={608} />
           </div>
 
           <div className="text-center mt-8">
