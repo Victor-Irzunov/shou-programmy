@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .fon{
+	background-image: url('../public/background/fon3.webp');
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 0;
+}
+
+.fon:after{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	background: #000;
+	opacity: .4;
+	z-index: -1;
+} */
+
+button, [type='button'], [type='submit']
+{
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #000;
+ 
+}
+
