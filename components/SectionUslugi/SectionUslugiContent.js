@@ -3,9 +3,9 @@ const SectionUslugiContent = () => {
 	return (
 		<div className='mt-10 text-justify'>
 			<div className="bg-white sd:p-8 xz:p-0 rounded-lg sd:shadow-md xz:shadow-none">
-				<p className="text-2xl font-bold text-gray-800 sd:mb-4 xz:mb-2">
+				<h4 className="text-2xl font-bold text-gray-800 sd:mb-4 xz:mb-2">
 					Наши шоу-программы - воплощение веселья и креативности
-				</p>
+				</h4>
 				<p className="text-gray-700 sd:mb-4 xz:mb-2">
 					Мы специализируемся на создании незабываемых моментов на свадьбах, юбилеях, Новом Году, корпоративных мероприятиях, днях рождения и других особых случаях. Наша миссия - сделать каждое мероприятие уникальным и запоминающимся.
 				</p>

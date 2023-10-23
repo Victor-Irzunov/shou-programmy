@@ -1,11 +1,13 @@
 
 import Image from "next/image";
-import SectionUslugi from "@/components/SectionUslugi/SectionUslugiCard";
-import SectionUslugiContent from "@/components/SectionUslugi/SectionUslugiContent";
+import dynamic from 'next/dynamic';
+
+const SectionUslugi = dynamic(() => import('@/components/SectionUslugi/SectionUslugiCard'));
+const SectionUslugiContent = dynamic(() => import('@/components/SectionUslugi/SectionUslugiContent'));
 
 export const metadata = {
-	title: '',
-	description: '',
+	title: 'Услуги шоу программы Бетельгейз',
+	description: 'Шоу программа с участием цыганского и испанского ансамбля - это уникальное событие, которое погружает зрителей в мир страстей, музыки и танцев цыган. Заказать цыганское шоу программу означает пригласить в свое мероприятие настоящих артистов, передающих душу и страсть цыганской музыки.',
 	alternates: {
 		canonical: ''
 	}
