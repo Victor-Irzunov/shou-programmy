@@ -6,12 +6,11 @@ import Image from "next/image";
 
 export const metadata = {
 	title: 'Шоу программа на корпоратив | Заказать Артистов',
-	description: 'Закажите профессиональное Цыганское шоу для корпоратива и создайте незабываемый праздник с живой музыкой и захватывающими танцами.',
+	description: 'Закажите профессиональное Цыганское или Испанское шоу для корпоратива и создайте незабываемый праздник с живой музыкой и захватывающими танцами.',
 	alternates: {
 		canonical: 'http://localhost:3000/uslugi/shou-na-korporativ'
 	}
 }
-
 
 const ShouNaKorporativ = () => {
 	return (

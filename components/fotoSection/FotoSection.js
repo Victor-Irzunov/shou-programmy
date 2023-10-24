@@ -39,7 +39,7 @@ function FotoSection({path, count}) {
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="bg-[#c9a035]  text-white py-1 px-5 rounded-full"
+              className="bg-[#c9a035] text-white py-1 px-5 rounded-full"
               onClick={toggleShowAll}
             >
               {showAll ? 'Скрыть' : 'Смотреть больше'}
