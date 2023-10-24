@@ -1,5 +1,5 @@
 export const metadata = {
-	title: '',
+	title: 'Контакты искусство шоу Бетельгейз',
 	description: '',
 	alternates: {
 		canonical: ''
