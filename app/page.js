@@ -17,7 +17,9 @@ export default function Home() {
             <a href='https://www.instagram.com/betelgeuze_show/' target='_blank' className="mb-4">
               <Image src='/instagram.svg' alt="сслыка для перехода на instagram" width={20} height={20} />
             </a>
-            <Image src='/youtube.svg' className="mb-10" alt="сслыка для перехода на youtube" width={20} height={20} />
+            <a href="https://www.youtube.com/@biza1986" target='_blank'>
+              <Image src='/youtube.svg' className="mb-10" alt="сслыка для перехода на youtube" width={20} height={20} />
+            </a>
             <BtnScroll />
           </div>
         </div>

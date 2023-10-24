@@ -45,10 +45,14 @@ const ShouNaSvadbu = () => {
 					</div>
 					<div className="flex sd:justify-end xz:justify-center items-center sd:pr-6 xz:pr-0 sd:mt-20 xz:mt-12">
 						<div className="">
-							<Image src='/instagram.svg' className="" alt="сслыка для перехода на instagram" width={30} height={30} />
+							<a href='https://www.instagram.com/betelgeuze_show/' target='_blank' className="mb-4">
+								<Image src='/instagram.svg' className="" alt="сслыка для перехода на instagram" width={30} height={30} />
+							</a>
 						</div>
 						<div className="ml-4">
-							<Image src='/youtube.svg' className="" alt="сслыка для перехода на youtube" width={30} height={30} />
+							<a href="https://www.youtube.com/@biza1986" target='_blank'>
+								<Image src='/youtube.svg' className="" alt="сслыка для перехода на youtube" width={30} height={30} />
+							</a>
 						</div>
 						<div className="w-14 ml-4">
 							<QRCode
