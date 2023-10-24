@@ -29,7 +29,7 @@ const ShouNaSvadbu = () => {
 
 					</div>
 					<div className="w-full mt-10 mx-auto">
-						<Image src='/uslugi/shou-programma-na-yubilej/main1.webp' className="mx-auto" alt="Шоу программа на новый год" width={645} height={608} />
+						<Image src='/uslugi/novogodnyaya-shou-programma/main.webp' className="mx-auto" alt="Шоу программа на новый год" width={645} height={608} />
 					</div>
 					<div className='text-center uppercase mb-8 mt-10 text-[#c9a035] font-light text-2xl'>
 

@@ -63,7 +63,7 @@ const dataUslugi = [
 	},
 	{
 		id: 8,
-		img: '/uslugi/2.webp',
+		img: '/uslugi/novogodnyaya-shou-programma/main.webp',
 		title: 'Новогодняя шоу программа',
 		key: 'novogodnyaya-shou-programma',
 		content: '',
