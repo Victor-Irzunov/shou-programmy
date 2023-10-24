@@ -1,16 +1,17 @@
 "use client"
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import Image from 'next/image'; // Импорт компонента Image
+import Image from 'next/image';
 
-const images = [];
-for (let i = 1; i <= 16; i++) {
-  images.push(`/uslugi/cyganskij-ansambl/${i}.webp`);
-}
 
-function FotoSection() {
+function FotoSection({path, count}) {
   const [showAll, setShowAll] = useState(false);
-  
+
+  const images = [];
+  for (let i = 1; i <= count; i++) {
+    images.push(`/uslugi/${path}/${i}.webp`);
+  }
+
   const toggleShowAll = () => {
     setShowAll(!showAll);
   }
@@ -27,7 +28,7 @@ function FotoSection() {
                 src={image}
                 alt={`Image ${index + 1}`}
                 layout="responsive"
-                width={400} // Укажите ширину и высоту по своему усмотрению
+                width={400}
                 height={300}
               />
             </div>

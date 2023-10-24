@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 
-const VideoGallery = ({ videos }) => {
+const VideoGallery = ({ videos, title = 'Видео: Цыганский ансамбль на мероприятиях' }) => {
   const [showAll, setShowAll] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
@@ -20,7 +20,7 @@ const VideoGallery = ({ videos }) => {
 
   return (
     <div className="mt-16">
-      <h3 className="uppercase text-2xl mb-8">Видео: Цыганский ансамбль на мероприятиях</h3>
+      <h3 className="uppercase text-2xl mb-8">{title}</h3>
       {visibleVideos.map((video, index) => (
         <div key={index} className="flex flex-col justify-center items-center mb-8">
           <h4 className="mb-3">{video.title}</h4>
@@ -43,7 +43,7 @@ const VideoGallery = ({ videos }) => {
           onClick={toggleShowAll}
           className="bg-[#c9a035] text-white py-1 px-6 rounded-full"
         >
-          {showAll ? 'Скрыть' : 'Смотреть больше'}
+          {showAll ? 'Скрыть' : 'Больше видео'}
         </motion.button>
       )}
     </div>

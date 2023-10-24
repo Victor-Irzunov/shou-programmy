@@ -58,7 +58,7 @@ const CyganskijAnsamblNaSvadbuPage = () => {
 						</p>
 					</article>
 
-					<FotoSection />
+					<FotoSection path={'cyganskij-ansambl'} />
 
 
 					<article className='mt-10'>
