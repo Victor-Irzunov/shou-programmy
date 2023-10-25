@@ -45,6 +45,16 @@ const CyganskijAnsamblNaYubilejPage = () => {
 					</p>
 				</div>
 
+				<div className='text-center mt-16'>
+					<a href="tel:80445992515">
+						<button
+							className='bg-[#c9a035] px-12 py-2 text-white uppercase hover:transform hover:scale-110 transition-transform'
+						>
+							Позвонить
+						</button>
+					</a>
+				</div>
+
 				<div className="mt-16 text-center">
 					<h2 className='uppercase sd:text-4xl xz:text-3xl'>
 						Почему замечательно заказать Шоу для юбилея с участием Цыганского ансамбля? Волшебство на Вашем Юбилее!

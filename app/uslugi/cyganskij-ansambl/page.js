@@ -9,10 +9,10 @@ export const metadata = {
 	title: 'Заказать цыганский ансамбль в Минске и Беларуси',
 	description: 'Шоу программы с участием цыганского ансамбля для различных мероприятий в Минске и по всей Беларуси. Профессиональные артисты, живая музыка и танцы.',
 	alternates: {
-	  canonical: 'http://localhost:3000/uslugi/cyganskij-ansambl'
+		canonical: 'http://localhost:3000/uslugi/cyganskij-ansambl'
 	}
- }
- 
+}
+
 
 const CyganskijAnsamblPage = () => {
 	return (
@@ -42,6 +42,16 @@ const CyganskijAnsamblPage = () => {
 					<p className="mx-2 mt-2">
 						Большой сценический опыт
 					</p>
+				</div>
+
+				<div className='text-center mt-16'>
+					<a href="tel:80445992515">
+						<button
+							className='bg-[#c9a035] px-12 py-2 text-white uppercase hover:transform hover:scale-110 transition-transform'
+						>
+							Позвонить
+						</button>
+					</a>
 				</div>
 
 				<div className="mt-16 text-center">

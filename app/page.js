@@ -1,6 +1,6 @@
 import Image from "next/image";
-import { QRCode } from 'antd';
-import BtnComp from "@/components/btn/BtnComp";
+import { Button, QRCode } from 'antd';
+// import BtnComp from "@/components/btn/BtnComp";
 import Section1MainPage from "@/components/SectionsMainPage/Section1MainPage";
 import Section2MainPage from "@/components/SectionsMainPage/Section2MainPage";
 import Section3MainPage from "@/components/SectionsMainPage/Section3MainPage";
@@ -50,7 +50,14 @@ export default function Home() {
               </p>
             </div>
 
-            <BtnComp />
+            {/* <BtnComp /> */}
+            <a href="tel:80445992515">
+              <button
+                className='bg-orange-500 px-8 py-2 text-white uppercase hover:transform hover:scale-110 transition-transform'
+              >
+                Позвонить
+              </button>
+            </a>
           </div>
         </div>
 

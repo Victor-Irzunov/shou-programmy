@@ -8,7 +8,12 @@ export const videosCyganskoe = [
 	  src: 'https://www.youtube.com/embed/5pP0BAkTzvQ?si=1BqNknFFMIxeE1WG'
 	},
 	{
-	  title: 'Шоу программа: Цыганский ансамбль на юбилее',
+	  title: 'Шоу программа: Цыганский ансамбль на новогоднем корпоративе',
 	  src: 'https://www.youtube.com/embed/IuXT0tals7U?si=WRuJ2Gq3p31ohrQj'
+	},
+	{
+	  title: 'Репетиция шоу Бетельгейз: Красивая цыганская песня - Кай о берги',
+	  src: 'https://www.youtube.com/embed/SphAx0JxfeU?si=JExtT-HGNp0Xv0jQ'
 	}
- ];
+];
+ 

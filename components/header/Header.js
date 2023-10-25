@@ -51,16 +51,16 @@ const Header = () => {
   const content = (
     <div className='px-4'>
       <div className='flex'>
-        <a href='tel:8029' className='text-lg'>
-          +375 29 000-00-00
+        <a href='tel:80445992515' className='text-lg'>
+          +375 44 599-25-15
         </a>
         <Image src='/a1.svg' className='ml-2' alt='оператор А1' width={18} height={18} />
       </div>
       <div className='flex mt-2'>
-        <a href='tel:8029' className='text-lg'>
-          +375 29 000-00-00
+        <a href='tel:80293159439' className='text-lg'>
+          +375 29 315-94-39
         </a>
-        <Image src='/mts.svg' className='ml-2' alt='оператор МТС' width={48} height={48} />
+        <Image src='/a1.svg' className='ml-2' alt='оператор МТС' width={18} height={18} />
       </div>
     </div>
   );
@@ -103,10 +103,10 @@ const Header = () => {
 
           <div className='xz:hidden sd:flex'>
             <a
-              href='tel:8029'
+              href='tel:80445992515'
               className='block xx:text-xl xz:text-lg'
             >
-              +375 29 000-00-00
+              +375 44 599-25-15
             </a>
             <Image src='/a1.svg' className='ml-2' alt='оператор А1' width={18} height={18} />
           </div>

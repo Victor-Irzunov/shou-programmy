@@ -32,13 +32,19 @@ const Footer = () => {
 							Контакты
 						</p>
 						<p>
-							<a href='tel:8029' className='font-extralight'>
-								+375 29 000-00-00
+							<a
+								href='tel:80445992515'
+								className='font-extralight'
+							>
+								+375 44 599-25-15
 							</a>
 						</p>
-						<p className='font-extralight'>
-							....@yandex.by
+						<p>
+							<a href='tel:80293159439' className='font-extralight'>
+								+375 29 315-94-39
+							</a>
 						</p>
+
 					</div>
 
 					<div className='xs:mb-4 xx:mb-4 xy:mb-4 xz:mb-4 xm:mb-0'>
@@ -46,7 +52,7 @@ const Footer = () => {
 							Адрес
 						</p>
 						<p className='font-extralight'>
-							200000, г.Минск, ул. Минская, 99A
+							г.Минск,  ул. Долгобродская 24
 						</p>
 					</div>
 					<div className='xs:mb-4 xx:mb-4 xy:mb-4 xz:mb-4 xm:mb-0'>
@@ -54,7 +60,7 @@ const Footer = () => {
 							График работы
 						</p>
 						<p className='font-extralight'>
-							Пн-Вс 08:00 - 21:00
+							Пн-Вс 08:00 - 22:00
 						</p>
 						<p className='font-extralight'>
 							Без выходных

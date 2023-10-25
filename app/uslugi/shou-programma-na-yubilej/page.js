@@ -44,6 +44,18 @@ const ShouNaYubilej = () => {
 							Большой сценический опыт
 						</p>
 					</div>
+					
+					<div className='text-center mt-16'>
+						<a href="tel:80445992515">
+							<button
+								className='bg-[#c9a035] px-12 py-2 text-white uppercase hover:transform hover:scale-110 transition-transform'
+							>
+								Позвонить
+							</button>
+						</a>
+					</div>
+
+
 					<div className="flex sd:justify-end xz:justify-center items-center sd:pr-6 xz:pr-0 sd:mt-20 xz:mt-12">
 						<div className="">
 							<a href='https://www.instagram.com/betelgeuze_show/' target='_blank' className="mb-4">
