@@ -53,14 +53,14 @@ export const MenuMobil = ({ onClose }) => {
 
 			<div className='pl-6'>
 				<div className='flex'>
-					<a href='tel:8029' className='text-lg'>
-						+375 29 000-00-00
+					<a href='tel:80445992515' className='text-lg'>
+						+375 44 599-25-15
 					</a>
 					<Image src='/a1.svg' className='ml-2' alt='оператор А1' width={18} height={18} />
 				</div>
 				<div className='flex mt-5'>
-					<a href='tel:8029' className='text-lg'>
-						+375 29 000-00-00
+					<a href='tel:80293159439' className='text-lg'>
+						+375 29 315-94-39
 					</a>
 					<Image src='/mts.svg' className='ml-2' alt='оператор МТС' width={48} height={48} />
 				</div>
